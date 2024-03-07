@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+    <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kauan Portfolio</title>
+</head>
+<body onload="myFunction()">
+    <div id="load">
+        <div id="spinner">
+            <div class="spinner1"></div>
+        </div>
+        <h1 style="color: black;font-size:16px;position:relative;text-align:center;margin-top:30px">Carregando...</h1>
+    </div>
+    <div id="page">
+        <header>
+            <nav>
+                <a href="#about"><li>About Me</li></a>
+                <a href="#skills"><li>Skills</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#contact"><li>Contact</li></a>
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <div id="text-content">
+                    <h1>Hi, I'm Kauan</h1>
+                    <span class="typing-animation">Front-End Developer</span>
+                    <div id="social">
+                        <a href="https://www.instagram.com/kauan.toldo/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kauan-toldo-280025266/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/KauanToldo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <img id="home-img" src="img/home.png" alt="">
+                <i class="fa-solid fa-arrow-down"></i>
+            </section>
+            <section id="about">
+                <div id="perfil">
+                    <img src="img/perfil.jpg" alt="Perfil Photo">
+                    <div>
+                        <h1>About <span>Me</span></h1>
+                        <p>My name is Kauan Lucas Toldo, and I'm a passionate front-end developer currently studying at the Instituto Federal Catarinense. I believe that front-end programming is a perfect blend of creativity and logic, and I love turning ideas into amazing interfaces. I am committed to continuous learning, teamwork collaboration, and I have experience in challenging projects. I invite you to explore my portfolio, and I am ready to contribute my knowledge and skills to create incredible experiences together!</p>
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <h1 class="title">My Skills</h1>
+                <div id="skills-container">
+                    <div class="skill" id="html">
+                        <img class="logo" src="img/html-1.svg" alt="">
+                        <h1>HTML 5</h1>
+                        <p class="info-skill"></p>
+                    </div>
+                    <div class="skill" id="css">
+                        <img class="logo" src="img/css-3.svg" alt="">
+                        <h1>CSS 3</h1>
+                        <p class="info-skill"></p>
+                    </div>
+                    <div class="skill" id="javascript">
+                        <img class="logo" src="img/javascript-1.svg" alt="">
+                        <h1>Javascript</h1>
+                        <p class="info-skill"></p>
+                    </div>
+                    <div class="skill" id="figma">
+                        <img class="logo" src="img/icons8-figma.svg" alt="">
+                        <h1>Figma</h1>
+                        <p class="info-skill"></p>
+                    </div>
+                    <div class="skill" id="mysql">
+                        <img class="logo" src="img/mysql.png" alt="">
+                        <h1>MySql</h1>
+                        <p class="info-skill"></p>
+                    </div>
+                    <div class="skill" id="python">
+                        <img class="logo" src="img/python-5.svg" alt="">
+                        <h1>Python</h1>
+                        <p class="info-skill"></p>
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <h1 class="title">Projects</h1>
+                <div id="projetos-container">
+                    <a href="https://kauantoldo.github.io/CriptoOn/#" target="_blank">
+                        <div id="criptoon" class="projeto">
+                            <img class="preview-project" src="img/criptoon.png" alt="">
+                            <h2 class="title-project">CriptoON <i class="link-project fa-solid fa-arrow-up-right-from-square"></i></h2>
+                            <p class="desc-project">Projeto de um site sobre Criptomoedas que inclui um conversor e uma integração com api de valores em tempo real, desenvolvido para a disciplina de Projeto Integrador 2023 no IFC.</p>
+                        </div>
+                    </a>
+                    <a href="https://kauantoldo.github.io/E-commerceProductPage/" target="_blank">
+                        <div id="ecommerce" class="projeto">
+                            <img class="preview-project" src="img/ecommerce.png" alt="">
+                            <h2 class="title-project">E-commerce Product Page <i class="link-project fa-solid fa-arrow-up-right-from-square"></i></h2>
+                            <p class="desc-project">Página de um e-commerce com funcionalidades de visualizar carrossel de imagens e adicionar/remover itens do carrinho, desenvolvido com a proposta de desafio do site FrontEnd Mentor.</p>
+                        </div>
+                    </a>
+                </div>
+                <div id="more">
+                    <h2>Quer ver mais projetos?</h2>
+                    <a href="https://github.com/KauanToldo" target="_blank"><button id="visit-github">Visitar meu GitHub <i class="github fa-brands fa-github"></i></button></a>
+            </section>
+                </div>
+            <section id="contact">
+                <h1 class="title">Contact</h1>
+                <div id="icons-contact">
+                    <a href="https://www.instagram.com/kauan.toldo/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kauan-toldo-280025266/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/KauanToldo" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <!-- <div>
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <label for="">Name</label>
+                    </div>
+                    <input type="text" placeholder="Enter your name" id="name-input">
+                    <div>
+                        <i class="fa-solid fa-message"></i>
+                        <label for="">Message</label>
+                    </div>
+                    <textarea placeholder="Enter your message" name="" id="" cols="30" rows="10"></textarea>
+                    <button onclick="sendMessage()" id="send-message">Send</button>
+                </div> -->
+            </section>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>
