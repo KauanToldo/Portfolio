@@ -598,7 +598,7 @@ header img {
         font-size: 2em;
     }
 
-    header {
+    header, nav, .fa-moon, .fa-sun {
         background-color: transparent;
     }
 }
