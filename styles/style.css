@@ -599,6 +599,6 @@ header img {
     }
 
     header, nav, .fa-moon, .fa-sun {
-        background-color: transparent;
+        background-color: transparent !important;
     }
 }
