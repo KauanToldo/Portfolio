@@ -597,4 +597,8 @@ header img {
     #icons-contact {
         font-size: 2em;
     }
+
+    header {
+        background-color: transparent;
+    }
 }
